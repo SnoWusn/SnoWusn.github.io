@@ -1,12 +1,13 @@
+
+
 body {
     background-color: antiquewhite;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     border: 2px dotted black;
     padding: 10px 10px 10px 10px;
     font-family: 'Courier New', Courier, monospace;
     font-size: medium;
-
 }
 p.firstp {
     color: maroon;
@@ -47,15 +48,20 @@ div#menu {
     display: table-cell;
     padding: 10px;
 
-    background-color: rgb(221, 185, 138);
     width: auto;
 }
+
+#content, #sidebar, #menu {
+    background-color: rgb(231, 216, 180);
+    /* border-radius: 5%; */
+    border-radius: 1.5em;
+}
+
 div#content { 
     
     margin: 10px;
     display: table-cell;
     vertical-align: top;
-    background-color: rgb(221, 185, 138);
 }
 div#sidebar {
     width: 200px;
@@ -66,7 +72,6 @@ div#sidebar {
     /* float: right; */
     display: table-cell;
     vertical-align: top;
-    background-color: rgb(221, 185, 138);
 }
 h2#sidebar {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -79,7 +84,6 @@ h2#sidebar {
 
 header,footer {
     margin: 10px;
-    background-color: rgb(221, 185, 138);
 }
 
 #testable {
