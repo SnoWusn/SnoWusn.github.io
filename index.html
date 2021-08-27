@@ -2,86 +2,82 @@
 <html>
     <meta charset="utf-8">
     <title>My first page</title>
-    <style>
-        body {
-            background-color: antiquewhite;
-            margin-left: 20%;
-            margin-right: 20%;
-            border: 2px dotted black;
-            padding: 10px 10px 10px 10px;
-            font-family: 'Courier New', Courier, monospace;
-            font-size: medium;
-
-        }
-        p.firstp {
-            color: maroon;
-        }
-        h1,h2 {
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            border-bottom: 1px solid black;
-            color: #923366;
-            text-decoration: underline;
-        }
-        h2 {
-            font-size: 1.3em;
-            color: rgb(9, 129, 209);            
-        }
-        #readme {
-            border-color:   white;
-            border-width:   2px;
-            border-style:   dashed;
-            border-bottom-left-radius:  15px;
-            background-color: #a7cece;
-            padding:        25px;
-            margin:         50px;
-            margin-right:   150px;
-            line-height:    1.9em;
-            font-style:     italic;
-            color:          #444;
-            font-family:    Georgia, 'Times New Roman', Times, serif;
-            background-image: url("images/the_wander.jpg");
-            background-repeat: no-repeat;
-            background-position: top left;
-        }
-    </style>
+    <link href="index.css" rel="stylesheet">
     <body>
-        <h1>Hi</h1>
-        <p class="firstp">
-            I used to learn things I <em>like</em> (mostly programming languages and web development) from online courses. The main problem I encountered was that they always reviewed the basics. I mean every-single-course taught the same stuff. <a href="index.html#p2">hahaha</a> Always.
+        <header>
+            <h3>Welcome to my blog.</h3>
+            <time datetime="2021-08-28">08/27/2021</time>
+        </header>
+        <div id="tableContainer">
+            <div id="tableRow">
+                <div id="menu">
+                    <h2>Content</h2>
+                    <p>Thoughts</p>
+                    <p>Notes</p>
+                    <p>Reading</p>
+                </div>
+                <div id="content">
+                    <h1>Hi</h1>
+                    <p id="firstp">
+                        I used to learn things I <em>like</em> (mostly programming languages and web development) from online courses. The main problem I encountered was that they always reviewed the basics. I mean every-single-course taught the same stuff. <a href="index.html#p2">hahaha</a> Always.
+                        I love coffee. Here are some picture of coffee.
+                
+                        <a href="https://www.baidu.com" title="baidu">A test link</a>
+                    </p>
+    
+                    <p id="readme">
+                        This page is my first attemptation to build a website. While learning the book <q>Head first HTML and CSS</q>, I get familiar with the elements, attributes, etc. And constructing a big picture of the whole landscope of the web designing work.
+                    </p>
+                    
+                    <table id="testable">
+                        <caption>
+                            This is a test Table.
+                        </caption>
+                        <tr>
+                            <th>City</th>
+                            <th>Date</th>
+                        </tr>
+                        <tr>
+                            <td>Walla walla</td>
+                            <td>June 15th</td>
+                        </tr>
+                    </table>
 
-            <br>
-            I love coffee. Here are some picture of coffee.
-            <blockquote>to be or not to be</blockquote>
-            <a href="https://www.baidu.com" title="baidu">A test link</a>
-        </p>
+                </div>
 
-        <p id="readme">
-            This page is my first attemptation to build a website. While learning the book <q>Head first HTML and CSS</q>, I get familiar with the elements, attributes, etc. And constructing a big picture of the whole landscope of the web designing work.
-        </p>
-
-        <h2>Coffee!</h2>
-        <p>
-            <a href="http://www.baidu.com">
-                <img src="thumbnails/coffee1.jpeg" title="lalal" alt="coffee1">
-            </a>
-            <img src="thumbnails/coffee2.jpeg" alt="coffee2">
-            <img src="thumbnails/coffee3.jpeg" alt="coffee3">
-            <img src="thumbnails/coffee4.jpeg" alt="coffee4">
-            
-            <br>lalalall
-            <ul>
-                <li>apple</li>
-                <li>banana</li>
-                <li>citrus</li>
-            </ul>
-        </p>
+                <div id="sidebar">
+                    <h2>Coffee!</h2>
+                        <p>
+                            <a href="http://www.baidu.com">
+                                <img src="thumbnails/coffee1.jpeg" title="lalal" alt="coffee1">
+                            </a>
+                            <img src="thumbnails/coffee2.jpeg" alt="coffee2">
+                            <img src="thumbnails/coffee3.jpeg" alt="coffee3">
+                            <img src="thumbnails/coffee4.jpeg" alt="coffee4">
+                            
+                            <br>lalalall
+                            <ul>
+                                <li>apple</li>
+                                <li>banana</li>
+                                <li>citrus</li>
+                            </ul>
+                        </p>
+                        <form action="index.html" method="POST">
+                            <input type="checkbox" name="address"> Lalalalalal<br>
+                            <select name="beans">
+                                <option value="house blend">House blend</option>
+                                <option value="Kenya">Kenya</option>
+                                
+                            </select>
+                            <input type="submit">
+                        </form>
+                </div>
+            </div>
+        </div>
+        <footer>
+            &#208;&epsilon;&tau;&#114;&ouml;&igrave;&tau;
+        </footer>
         
-
-        <p>
-            <img src="images/the_wander.jpg" width="100" alt="the wander upon clouds">
-        </p>
-
-        &#208;&epsilon;&tau;&#114;&ouml;&igrave;&tau;
     </body>
     
 

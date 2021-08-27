@@ -1,0 +1,90 @@
+body {
+    background-color: antiquewhite;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 2px dotted black;
+    padding: 10px 10px 10px 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+
+}
+p.firstp {
+    color: maroon;
+}
+h1,h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 1px solid black;
+    color: #923366;
+    text-decoration: underline;
+}
+h2 {
+    font-size: 1.3em;
+    color: rgb(9, 129, 209);            
+}
+#readme {
+    border-color:   white;
+    border-width:   2px;
+    border-style:   dashed;
+    border-bottom-left-radius:  15px;
+    background-color: #a7cece;
+    padding:        25px;
+    margin:         50px;
+    /* margin-right:   150px; */
+    line-height:    1.9em;
+    font-style:     italic;
+    color:          #444;
+    font-family:    Georgia, 'Times New Roman', Times, serif;
+    background-image: url("images/the_wander.jpg");
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+div#tableContainer {
+    display: table;
+    border-spacing: 10px;
+}
+div#tableRow {display: table-row}
+div#menu {
+    display: table-cell;
+    padding: 10px;
+
+    background-color: rgb(221, 185, 138);
+    width: auto;
+}
+div#content { 
+    
+    margin: 10px;
+    display: table-cell;
+    vertical-align: top;
+    background-color: rgb(221, 185, 138);
+}
+div#sidebar {
+    width: 200px;
+    border-width: thin;
+    border-style: solid;
+    border-color: black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* float: right; */
+    display: table-cell;
+    vertical-align: top;
+    background-color: rgb(221, 185, 138);
+}
+h2#sidebar {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#firstp a:hover {
+    font-size: 1.5em;
+}
+#firstp a:visited { color: yellow;}
+
+header,footer {
+    margin: 10px;
+    background-color: rgb(221, 185, 138);
+}
+
+#testable {
+    border-style: solid;
+    border-color: greenyellow;
+    margin:  20px;
+    padding: 5px;
+}
